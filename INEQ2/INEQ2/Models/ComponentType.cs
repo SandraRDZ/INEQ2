@@ -13,5 +13,7 @@ namespace INEQ2.Models
 
         public Boolean Active { get; set; }
 
+        public virtual ICollection<Equipment> Equipments { get; set; }
+
     }
 }

@@ -12,7 +12,7 @@
         <EntityTypeShape EntityType="dbINEQModel.Equipment" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
         <EntityTypeShape EntityType="dbINEQModel.EquipmentType" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
         <EntityTypeShape EntityType="dbINEQModel.Model" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="dbINEQModel.Status" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbINEQModel.Status" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="dbINEQModel.User" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="dbINEQModel.Warehouse" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
         <AssociationConnector Association="dbINEQModel.FK_dbo_Equipment_dbo_Brand_BrandId" ManuallyRouted="false" />
