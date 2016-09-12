@@ -15,8 +15,8 @@ namespace INEQ2.DAL
         public DAL() : base("INEQ")
         {
         }
-        public DbSet<Brand> Brand { get; set; }
-        public DbSet<Component> Components { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Models.Component> Components { get; set; }
         public DbSet<Equipment> Equipments { get; set; }
         public DbSet<Model> Models { get; set; }
         public DbSet<Statu> Status { get; set; }
