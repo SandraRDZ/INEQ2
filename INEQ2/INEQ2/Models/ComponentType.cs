@@ -12,5 +12,7 @@ namespace INEQ2.Models
         public char Description { get; set; }
 
         public Boolean Active { get; set; }
+
+        public virtual ICollection<>
     }
 }
