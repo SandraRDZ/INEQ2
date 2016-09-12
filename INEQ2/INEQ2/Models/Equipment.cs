@@ -21,22 +21,10 @@ namespace INEQ2.Models
 
         public virtual ICollection<Brand> Brand { get; set; }
         public virtual ICollection<Component> Components { get; set; }
-        public virtual ICollection<Equipment> Equipments { get; set; }
+        
         public virtual ICollection<Model> Models { get; set; }
         public virtual ICollection<Statu> Status { get; set; }
         public virtual ICollection<Warehouse> Warehouse { get; set; }
 
-    }
-
-    public class Warehouse
-    {
-    }
-
-    public class Statu
-    {
-    }
-
-    public class Model
-    {
     }
 }

@@ -21,6 +21,7 @@ namespace INEQ2.DAL
         public DbSet<Model> Models { get; set; }
         public DbSet<Statu> Status { get; set; }
         public DbSet<Warehouse> Warehouse { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
