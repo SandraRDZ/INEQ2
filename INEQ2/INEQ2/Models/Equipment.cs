@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
@@ -25,5 +26,17 @@ namespace INEQ2.Models
         public virtual ICollection<Status> Status { get; set; }
         public virtual ICollection<Warehouse> Warehouse { get; set; }
 
+    }
+
+    public class Warehouse
+    {
+    }
+
+    public class Status
+    {
+    }
+
+    public class Model
+    {
     }
 }
