@@ -8,7 +8,10 @@ namespace INEQ2.DAL
     public class DAL : DbContext
     {
 
+        public DAL () : base("INEQ")
+        {
 
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
