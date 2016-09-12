@@ -26,5 +26,7 @@ namespace INEQ2.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<INEQ2.Models.ComponentType> ComponentTypes { get; set; }
     }
 }
